@@ -4,7 +4,7 @@ import axios from 'axios';
 export const createMovie = async (req,res,next)=>{
     const newMovie = new Movie({
         original_title: req.body.original_title,
-        poster_path: req.body.poster_path,
+        backdrop_path: req.body.backdrop_path,
     })
 
     try {

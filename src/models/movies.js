@@ -4,7 +4,7 @@ const moviesSchema = new Schema(
     {
         
       original_title: String,
-      poster_path: String,
+      backdrop_path: String,
     },
     {
       timestamps: true,
