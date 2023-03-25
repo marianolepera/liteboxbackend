@@ -4,7 +4,7 @@ import multer from "multer"
 import shortid from "shortid";
 
 const configuracionMulter = {
-    storage: fileStorage = multer.diskStorage({
+    storage: multer.diskStorage({
         destination: (req, file, cb) => {
             cb(null, __dirname+'../../uploads/');
         },
