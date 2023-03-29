@@ -12,7 +12,7 @@ const app= express();
 
 app.set("pkg", pkg);
 
-app.use(express.json());
+
 app.use(morgan(("dev")))
 app.use(cors())
 app.use(helmet());
