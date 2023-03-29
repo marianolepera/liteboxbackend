@@ -7,7 +7,7 @@ router.get("/",moviesController.getMovies)
 
 router.get("/:movieId",moviesController.getMovieById)
 
-router.post("/",moviesController.subirArchivo,moviesController.createMovie)
+router.post("/",moviesController.createMovie)
 
 router.put("/:movieId",moviesController.updateMovieById)
 
